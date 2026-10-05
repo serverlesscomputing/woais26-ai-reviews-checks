@@ -1,0 +1,18 @@
+# Never commit submissions or anything extracted from them.
+*.pdf
+*.zip
+out/
+.tmp/
+papers/
+**/text.txt
+**/redacted.txt
+**/hidden_text.txt
+**/checks.json
+**/summary.csv
+**/gate.json
+
+# tooling
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
